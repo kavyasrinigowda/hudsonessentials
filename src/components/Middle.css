@@ -1,0 +1,16 @@
+.middle{
+    display: flex;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+  
+}
+.middle>img{
+    display: flex;
+    align-items: center;
+    width: 30%;
+
+}
+.middle>h5{
+    margin-top: 25px;
+}

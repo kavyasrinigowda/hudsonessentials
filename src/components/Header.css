@@ -1,0 +1,44 @@
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+color:white;
+    background-color: #ff5a00;
+    display: flex;
+    align-items: center;
+
+}
+.header__start{
+        margin: 0;
+    height: 44px;
+    vertical-align: top;    
+}
+.header__end{
+text-align: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    z-index: 1;
+
+}
+.header__end>button{
+        padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    line-height: 1;
+    color: white;
+    width: 60%;
+    flex-direction: row;
+}
+.header__end>button:hover{
+transform: scale(1.03);
+color: #fa9259;
+}
